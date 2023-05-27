@@ -6,6 +6,9 @@
 //  Revised 5/18/23, 5/21/23, 5/24/23
 
 import UIKit
+import VisionKit
+
+var debug = true
 var degrees_23: Double = 8 // to rotate 22.5º divide 2𝝅 radians by 8
 var degrees_45: Double = 4 // to rotate 45º divide 2𝝅 radians by 4
 var degrees_360: Double = 1 // to rotate 45º divide 2𝝅 radians by 1
@@ -76,14 +79,6 @@ class ViewController: UIViewController {
         })
     }
     
-    @IBAction func ocrViewButton() {
-        guard let vc = storyboard?.instantiateViewController(identifier: "OCR") as? OCRViewController else {
-            print("failed to get vc from storyboard")
-            return
-        }
-        present(vc, animated: true)
-    }
-    
     @IBAction func rotate45º(_sender: Any) {
         imageView.transform = imageView.transform.rotated(by: CGFloat(Double.pi / degrees_45))
     }
@@ -100,7 +95,7 @@ class ViewController: UIViewController {
     // SPIN LOGO - duration helps to control rotation speed
     @IBAction func spinLogo(sender: UIButton) {
         UIView.animate(withDuration: 0.3, delay: 0, options: .curveLinear, animations: {
-            self.imageView.transform = self.imageView.transform.rotated(by: CGFloat(Double.pi))
+            self.logoView.transform = self.logoView.transform.rotated(by: CGFloat(Double.pi))
         }) { (finished) -> Void in
             self.spinLogo(sender: sender)
         }

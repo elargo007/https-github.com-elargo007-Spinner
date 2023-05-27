@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF26DD8E2A1EE37F00C5499A /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26DD8D2A1EE37F00C5499A /* BlueViewController.swift */; };
 		DF4FA98A2A1E8540002DA157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4FA9892A1E8540002DA157 /* LaunchScreen.storyboard */; };
 		DF4FA98C2A1E863B002DA157 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4FA98B2A1E863B002DA157 /* ViewController.swift */; };
-		DF4FA98E2A1E8656002DA157 /* OCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4FA98D2A1E8656002DA157 /* OCRViewController.swift */; };
+		DF4FA98E2A1E8656002DA157 /* ocrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4FA98D2A1E8656002DA157 /* ocrViewController.swift */; };
 		DF7E7F412A18D4FD00DE30BA /* Ananda Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF7E7F3F2A18D4FD00DE30BA /* Ananda Black.ttf */; };
 		DF7E7F5B2A1E82FE00DE30BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7E7F5A2A1E82FE00DE30BA /* Assets.xcassets */; };
 		DF7E7F5D2A1E83AD00DE30BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E7F5C2A1E83AD00DE30BA /* SceneDelegate.swift */; };
@@ -18,9 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF26DD8D2A1EE37F00C5499A /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 		DF4FA9892A1E8540002DA157 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF4FA98B2A1E863B002DA157 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF4FA98D2A1E8656002DA157 /* OCRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCRViewController.swift; sourceTree = "<group>"; };
+		DF4FA98D2A1E8656002DA157 /* ocrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ocrViewController.swift; sourceTree = "<group>"; };
 		DF4FA9902A1E8DC4002DA157 /* Ananda.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ananda.ttf; sourceTree = "<group>"; };
 		DF7E7F272A18C8E400DE30BA /* Spinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7E7F382A18C8E500DE30BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,7 +66,8 @@
 				DF7E7F622A1E843100DE30BA /* AppDelegate.swift */,
 				DF7E7F5C2A1E83AD00DE30BA /* SceneDelegate.swift */,
 				DF4FA98B2A1E863B002DA157 /* ViewController.swift */,
-				DF4FA98D2A1E8656002DA157 /* OCRViewController.swift */,
+				DF4FA98D2A1E8656002DA157 /* ocrViewController.swift */,
+				DF26DD8D2A1EE37F00C5499A /* BlueViewController.swift */,
 				DF7E7F602A1E83E800DE30BA /* Main.storyboard */,
 				DF4FA9892A1E8540002DA157 /* LaunchScreen.storyboard */,
 				DF7E7F5A2A1E82FE00DE30BA /* Assets.xcassets */,
@@ -148,8 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF4FA98C2A1E863B002DA157 /* ViewController.swift in Sources */,
-				DF4FA98E2A1E8656002DA157 /* OCRViewController.swift in Sources */,
+				DF4FA98E2A1E8656002DA157 /* ocrViewController.swift in Sources */,
 				DF7E7F632A1E843100DE30BA /* AppDelegate.swift in Sources */,
+				DF26DD8E2A1EE37F00C5499A /* BlueViewController.swift in Sources */,
 				DF7E7F5D2A1E83AD00DE30BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
